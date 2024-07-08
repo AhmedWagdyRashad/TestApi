@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">TestApi</string>
+    <string name="test_request">Test Request</string>
+    <string name="enter_the_url">Enter the URL:</string>
+    <string name="url_example">https://api.example.com/endpoint</string>
+    <string name="select_request_method">Select Request Method:</string>
+    <string name="headers">Add Request Headers:</string>
+    <string name="request_body">Request Body:</string>
+    <string name="response">Response:</string>
 </resources>
