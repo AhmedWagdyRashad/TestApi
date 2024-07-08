@@ -87,8 +87,8 @@ class MainActivity : AppCompatActivity() {
 // Example GET request
         apiClient.request(getUrl(),selectedRequestMethod, object : ApiResponseCallback {
             override fun onResponse(response: ApiResponse) {
-                this@MainActivity.binding.responseValue.text = "Status Code = ${response.statusCode}\n"+" Response Message: ${response.message}"
-                    Log.d(TAG, "onResponse: apiResponse = ${response.message} ")
+                this@MainActivity.binding.responseValue.text = "Status Code = ${response.statusCode}\n Response Message: ${response.message}"
+//                    Log.d(TAG, "onResponse: apiResponse = ${response.message} ")
                 if (response.statusCode == 200) {
                     // Handle successful response
                     val apiResponse = response.message
